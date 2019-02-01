@@ -1,4 +1,4 @@
-const Discord = require("discord.js")
+
 const token = process.env.token;
 
 const client = new Discord.Client();
