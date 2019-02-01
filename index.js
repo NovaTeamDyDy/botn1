@@ -1,8 +1,8 @@
 const Discord = require("discord.js")
-const token = process.env.TOKEN;
+const token = process.env.token;
 
 const client = new Discord.Client();
-bot.login(TOKEN);
+bot.login(token);
 
 
 const sql = require("sqlite");
