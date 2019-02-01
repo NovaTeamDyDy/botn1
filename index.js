@@ -58,8 +58,6 @@ function clean(text) {
     else
         return text;
 }
-
-var token = " ";
 client.on("guildCreate", (guild) => {
     client.user.setGame(`vhelp / vnew | ${client.guilds.size} servers`);
     guild.owner.user.send(`Hello! I'm Vectra Space\nThanks for adding me to your guild!\n\nView all of my commands with \`/help\`.\nLearn more about me with \`/about\`.`);
